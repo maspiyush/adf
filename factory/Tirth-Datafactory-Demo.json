@@ -1,0 +1,9 @@
+{
+	"name": "Tirth-Datafactory-Demo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac351141-7adb-4ba2-a24f-e4ed3ee60e0d",
+		"tenantId": "2a023e8b-6f9a-4c30-8187-0b366a288b1b"
+	}
+}

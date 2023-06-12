@@ -1,0 +1,20 @@
+{
+	"name": "inputDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService_StorageTirthDemo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "test.csv",
+				"folderPath": "source",
+				"container": "demodata"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
