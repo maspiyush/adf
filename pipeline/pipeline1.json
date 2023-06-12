@@ -32,7 +32,10 @@
 							"metadata": [
 								{
 									"name": "lastmodified",
-									"value": "$$LASTMODIFIED"
+									"value": {
+										"value": "@pipeline().Pipeline",
+										"type": "Expression"
+									}
 								}
 							]
 						}
